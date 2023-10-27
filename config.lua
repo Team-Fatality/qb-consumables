@@ -258,6 +258,19 @@ Config = {
 	["t_tango_orange"] = { 		emote = "can02", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
 
 	
+			
+	----------------
+	------Pearl-----
+	----------------
+
+	["pr_coca_cola"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pr_diet_coke"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pr_dr_pepper"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pr_fanta_orange"] = { 	emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pr_fruit_punch"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pr-softdrink"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+
+		
 	},
 	Emotes = {
 		--Food
