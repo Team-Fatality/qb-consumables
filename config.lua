@@ -74,7 +74,7 @@ Config = {
 
 
 	----------------
-	--  Dominos   --
+	--  Pizza Shop --
 	----------------
 	["buffalo_chicken"] = { 		emote = "pizzaslice1", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["cali_chicken_bacon"] = { 		emote = "pizzaslice1", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
@@ -100,11 +100,11 @@ Config = {
 	["chicken_carbonara"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["pasta_primavera"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 
-	["d_coca_cola"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["d_dr_pepper"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["d_fanta_orange"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["d_fruit_punch"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["d_sprite"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
+	["cola_drink"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
+	["mix_fruit"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
+	["softdrink"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
+	["sprunk"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
+	["sprunk_light"] = { 		emote = "juice01", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 
 
 
