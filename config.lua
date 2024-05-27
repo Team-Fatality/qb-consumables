@@ -178,59 +178,40 @@ Config = {
 
 	
 	----------------
-	--  ChickFila --
+	--ChickenShop---
 	----------------
-	["brown_scramble_bowl"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["brown_scramble_burrito"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+
+		
+	["chicken_biscuit"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["chicken_club_sandwich"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["chicken_sandwich"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["deluxe_sandwich"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["chicken_egg_cheese"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["egg_cheese_muffin"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["egg_white_grill"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["sausage_egg_cheese"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+
 	["buttered_biscuit"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["chick_fil_a_nuggets"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["chick_nuggets"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["chick_n_minis"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["chick_n_strips"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["chicken_noodle_soup"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["chocolate_chunk_cookie"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["chocolate_fudge_brownie"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["cobb_salad"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["cool_wrap"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["english_muffin"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["fruit_cup"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["greek_yogurt_parfait"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["grilled_nuggets"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	["hash_browns"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["icedream_cone"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["icedream_cup"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["kale_crunch_side"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["mac_cheese"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["market_salad"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["side_salad"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["spicy_southwest_salad"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["waffle_potato_chips"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["waffle_potato_fries"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 	
-	["chicken_biscuit"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["egg_white_grill"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["chicken_egg_cheese"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["sausage_egg_cheese"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["egg_cheese_muffin"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["chicken_sandwich"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["deluxe_sandwich"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-	["chicken_club_sandwich"] = { 		emote = "burger", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-
-	["apple_juice"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["apple_sauce"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["brewed_iced_tea"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["chick_fil_a_lemonade"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["chocolate_milk"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
+	["lemonade"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["chocolate_milkshake"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["coffee"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["cookies_cream_milkshake"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["frosted_coffee"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["frosted_lemonade"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["peach_milkshake"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
-	["simply_orange"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["strawberry_milkshake"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["sweet_tea"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 	["vanilla_milkshake"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { hunger = math.random(10,20), }},
 
+		
 			
 	----------------
 	--Chick&Fries--
