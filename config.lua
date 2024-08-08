@@ -274,6 +274,34 @@ Config = {
 	["speedball"] = { 		emote = "coffeecup", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
 
 
+	----------------
+	----Teqila-la---
+	----------------
+
+	["berry_hydrating"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["cocktail"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["daquiri"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["green_dream"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["island_breeze"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["island_fantasy"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["just_peachy"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["kamikaze"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["redhot_daquiri"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["tequila"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["watermelon_dream"] = { 		emote = "tequila", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+
+	["banana_juice"] = { 		emote = "wheatgrass", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["kiwi_juice"] = { 		emote = "wheatgrass", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["orange_juice"] = { 		emote = "wheatgrass", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["strawberry_juice"] = { 		emote = "wheatgrass", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+
+	["banana_nut"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
+	["chocolatecup"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
+	["strawberrycup"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
+	["vanillacupcakes"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
+
+
+
 
 	},
 	Emotes = {
@@ -312,6 +340,12 @@ Config = {
 				EmoteMoving = true, EmoteLoop = true, }},
 		["coffeecup"] = {"mp_player_intdrink", "loop_bottle", "Drink", AnimationOptions =
 			{ Prop = "p_ing_coffeecup_01", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true, EmoteLoop = true, }},
+		["tequila"] = {"mp_player_intdrink", "loop_bottle", "Drink", AnimationOptions =
+			{ Prop = "prop_cocktail", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true, EmoteLoop = true, }},
+		["wheatgrass"] = {"mp_player_intdrink", "loop_bottle", "Drink", AnimationOptions =
+			{ Prop = "prop_wheat_grass_glass", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true, EmoteLoop = true, }},
 	},
 }
