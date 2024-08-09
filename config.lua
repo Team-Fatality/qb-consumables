@@ -295,6 +295,15 @@ Config = {
 	["orange_juice"] = { 		emote = "wheatgrass", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
 	["strawberry_juice"] = { 		emote = "wheatgrass", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
 
+	
+	["ambeer"] = { 		emote = "beer", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["dusche"] = { 		emote = "beer", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["logger"] = { 		emote = "beer", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pisswasser"] = { 		emote = "beer", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pisswasser2"] = { 		emote = "beer", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["pisswasser3"] = { 		emote = "beer", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+
+
 	["banana_nut"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
 	["chocolatecup"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
 	["strawberrycup"] = { 		emote = "aple2a", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { thirst = math.random(10,20), }},
@@ -323,6 +332,9 @@ Config = {
 				EmoteMoving = true }},
 
 		--Drink
+		["beer"] = {"mp_player_intdrink", "loop_bottle", "Drink", AnimationOptions =
+		{ Prop = "p_cs_bottle_01", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+			EmoteMoving = true, EmoteLoop = true, }},
 		["juice02"] = {"mp_player_intdrink", "loop_bottle", "Drink", AnimationOptions =
 			{ Prop = "prop_food_bs_juice02", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true, EmoteLoop = true, }},
